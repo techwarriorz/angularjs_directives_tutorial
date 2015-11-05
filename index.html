@@ -1,0 +1,27 @@
+<html ng-app="DirectiveTutorial">
+
+ <body ng-controller="SampleController">
+     ELEMENT
+     <sample-directive first-name="Scott" last-name="lastName" name-changer="changeName"></sample-directive><br>
+     
+     
+     ATTRIBUTE
+    <div sample-directive first-name="Barry" last-name="lastName" name-changer="changeName"></div><br>
+     
+     
+     
+     CLASS
+     <div class="sample-directive" first-name="Christy" last-name="lastName" name-changer="changeName"></div>
+     
+     <br>
+
+     {{lastName}}
+     
+     
+    
+    </body>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+ <script src="app.js"></script>
+ <script src="directives.js"></script>
+ <script src="sample-controller.js"></script>
+</html>
